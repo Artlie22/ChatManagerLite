@@ -1,0 +1,33 @@
+main: net.Artlie.ChatManagerLite.Main
+name: ChatManagerLite
+version: 1.2
+author: Artlie
+softdepend: [GroupManager, ASkyBlock, uSkyBlock, PermissionsEx]
+depend: [Vault]
+commands:
+      chatmanagerlite:
+          usage: /<command>
+          description:  Main command
+          aliases: [cml]
+      clearchat:
+          usage: /<command>
+          description: Clear Chat
+          aliases: [cc, cmcc, cmlcc]
+      mute:
+          usage: /<command> <player>
+          description: Mute a player
+      mutechat:
+          usage: /<command>
+          description: Mute all players
+      nick:
+          usage: /<command>
+          description: Set custon nick
+      msg:
+          usage: /<command>
+          description: Send private message
+          aliases: [pm, tell, privatemessage, message]
+      reply:
+          usage: /<command>
+          descritpion: Reply to a private message
+          aliases: [r, rpm]
+         
